@@ -1,0 +1,7 @@
+{
+  "name": "frontParcial2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
