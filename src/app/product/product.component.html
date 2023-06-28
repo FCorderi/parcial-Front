@@ -1,0 +1,10 @@
+<ion-card>
+  <img alt="Silhouette of mountains" [src]="product?.image" />
+  <ion-card-header>
+    <ion-card-title>{{product?.name}}</ion-card-title>
+    <ion-card-subtitle>Price: ${{product?.cost}}</ion-card-subtitle>
+    <ion-card-subtitle>Stock: {{product?.stock}}</ion-card-subtitle>
+  </ion-card-header>
+  <ion-button [routerLink]="['/products',product?.id]">+Info</ion-button>
+  
+</ion-card>
